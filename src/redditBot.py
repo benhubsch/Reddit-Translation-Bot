@@ -62,5 +62,4 @@ if __name__ == '__main__':
                          user_agent = secret.user_agent, \
                          username = secret.reddit_user, \
                          password = secret.reddit_password)
-    # print(reddit.user.me())
     main()
