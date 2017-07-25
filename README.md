@@ -1,6 +1,6 @@
 # Reddit Translation Bot
 
-A bot that translates the text or post of any comment when called.
+A bot that translates the text of any post or comment when called.
 
 ## Table of Contents
 
