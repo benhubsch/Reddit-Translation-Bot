@@ -19,7 +19,9 @@ The Reddit API was the first API I'd ever interacted with, so it was definitely 
 ## Demo
 
 It's a pretty straightforward process: you simply comment underneath a post or a comment with a call to the bot and the language you'd like to translate to, like so:
+![alt text](https://github.com/benhubsch/Reddit-Translation-Bot/blob/master/pics/reddit2.png "Comment")
 
+![alt text](https://github.com/benhubsch/Reddit-Translation-Bot/blob/master/pics/reddit3.png "Reply")
 
 ## Contributing
 
