@@ -14,7 +14,7 @@ This was a project I'd been wanting to dig into for a little while. I will shame
 
 I used the Reddit API to read messages from the bots' inbox, find the right place to comment, and post the comment. The Google Translate API handled the translation itself, making translation available to and from any language that it supports.
 
-The Reddit API was the first API I'd ever interacted with, so it was definitely a process of bumbling around a bit before I got my feet under me. I've since used dozens, but at the time I had no experience with APIs. I read all of the PRAW docs so that I could have a general understanding of what was going on and proceeded from there. Ultimately, I remember being super excited when I first got everything working and saw my translations appearing on the page!
+The Reddit API was the first API I'd ever interacted with, so it was definitely a process of bumbling around a bit before I got my feet under me. I've since used dozens, but at the time I had no experience. I read all of the PRAW docs so that I could have a general understanding of what was going on and proceeded from there. Ultimately, I remember being super excited when I first got everything working and saw my translations appearing on the page!
 
 ## Demo
 
