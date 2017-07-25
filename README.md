@@ -1,4 +1,4 @@
-# Reddit-Translation-Bot
+# Reddit Translation Bot
 
 A bot that translates the text or post of any comment when called.
 
@@ -28,7 +28,8 @@ Assuming that most of you don't know Russian, the response is broken up into two
 Вопрос Bittrex: Есть ли способ изменить настройки «% CHANGE» на дисплее кошелька?" according to Google Translate, and the content of the post corresponds to "Я заметил, что это показывает изменение% в тот...".
 
 This also works on comments (not just posts), but the difference is that there'd be no "Title:" message:
-
+![alt text](https://github.com/benhubsch/Reddit-Translation-Bot/blob/master/pics/comment.png "Comment Only")
+This time, only the content is posted as part of the reply. It's in Japanese, as requested.
 
 ## Contributing
 
