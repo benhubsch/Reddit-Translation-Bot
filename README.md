@@ -18,10 +18,17 @@ The Reddit API was the first API I'd ever interacted with, so it was definitely 
 
 ## Demo
 
-It's a pretty straightforward process: you simply comment underneath a post or a comment with a call to the bot and the language you'd like to translate to, like so:
+Let's head to the CryptoMarkets subreddit to test this out. It's a pretty straightforward process: you simply comment underneath a post or a comment with a call to the bot and the language you'd like to translate to, like so:
 ![alt text](https://github.com/benhubsch/Reddit-Translation-Bot/blob/master/pics/reddit2.png "Comment")
+You can see the call to u/BotTranslator and the request for Russian. Note that the source language need not be specified, as it can be detected by Google Translate. Therefore, you can ask for a translation from a language you don't even recognize and get a response.
 
+Here's a sample response:
 ![alt text](https://github.com/benhubsch/Reddit-Translation-Bot/blob/master/pics/reddit3.png "Reply")
+Assuming that most of you don't know Russian, the response is broken up into two parts. The first starts with "Title:", followed by the title of the post. The second starts with "Content:", followed by the content of the post. Therefore, the title "Bittrex question: Is there a way to change the "% CHANGE" settings in the wallet display?" translates to 
+Вопрос Bittrex: Есть ли способ изменить настройки «% CHANGE» на дисплее кошелька?" according to Google Translate, and the content of the post corresponds to "Я заметил, что это показывает изменение% в тот...".
+
+This also works on comments (not just posts), but the difference is that there'd be no "Title:" message:
+
 
 ## Contributing
 
